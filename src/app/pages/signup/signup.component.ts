@@ -7,4 +7,21 @@ import { Component } from '@angular/core';
 })
 export class SignupComponent {
 
+  user = {
+    name: '',
+    email: '',
+    ph: null,
+    password:'',
+    confirm_pwd:''
+  };
+
+  isConfirmInvalid():boolean{
+    if(this.user.password===this.user.confirm_pwd){
+      return false;
+    }else{
+      return true;
+    }
+
+  }
+  
 }
