@@ -1,7 +1,7 @@
 <div class="form">
   <h2 class="text-primary">User Login</h2>
   <br><br>
-<form #login="ngForm" >
+<form #loginForm="ngForm" (ngSubmit)="login()">
   <div class="form-group">
     <label for="exampleInputEmail1">Email / Username</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email" [(ngModel)]="User.email" #email="ngModel"[class.is-invalid]="email.invalid&&email.touched" required pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$">
@@ -14,12 +14,11 @@
 
   </div>
   
-  <button type="submit" class="btn btn-primary">Submit</button>&nbsp;&nbsp;
-  <a routerLink="#" class="create-account">Create a New Account</a>
+  <button type="submit" class="btn btn-primary" [disabled]="loginForm.invalid" >Submit</button>&nbsp;&nbsp;
+ <br>
+  <a routerLink="/signup" class="create-account">Create a New Account</a>
 </form>
 <div class="additional-options">
   <a routerLink="#" class="forgot-password">Forgot Password?</a>
-  
-
 </div>
 </div>
