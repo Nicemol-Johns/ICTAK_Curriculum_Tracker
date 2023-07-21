@@ -10,10 +10,13 @@ import { FooterComponent } from './pages/home/footer/footer.component';
 import { SignupComponent } from './pages/signup/signup.component';
 import { LoginComponent } from './pages/login/login.component';
 import { FormsModule } from '@angular/forms';
+<<<<<<< HEAD
 import { HomeComponent } from './pages/home/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
+=======
+>>>>>>> e54e706b6c41ec318031a1647f626d45ae1fe02e
 
 @NgModule({
   declarations: [

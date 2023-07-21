@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .card_container{
     width:fit-content;
     margin: auto;
@@ -21,4 +22,29 @@
     color: dodgerblue;
     padding-bottom: 30px;
 
+=======
+.card_container{
+    width:fit-content;
+    margin: auto;
+    text-align: center;
+    height: 400px;
+    
+    /* margin-left:150px;
+    margin-right:150px; */
+}
+.card{
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* padding-right: 30px; */
+}
+#faculty{
+    font-family:sans-serif;
+    color: dodgerblue;
+    padding-bottom: 30px;
+
+>>>>>>> e54e706b6c41ec318031a1647f626d45ae1fe02e
 }

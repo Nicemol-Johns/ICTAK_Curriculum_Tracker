@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* .navbar-brand{
     padding-left: 200px;
 }
@@ -7,4 +8,15 @@
 #icon{
     margin-left: 200px;
     background: yellow;
+=======
+/* .navbar-brand{
+    padding-left: 200px;
+}
+.navbar-collapse{
+    padding-left: 1100px;
+}
+#icon{
+    margin-left: 200px;
+    background: yellow;
+>>>>>>> e54e706b6c41ec318031a1647f626d45ae1fe02e
 } */
